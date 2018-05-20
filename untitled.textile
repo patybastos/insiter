@@ -1,0 +1,5 @@
+result = AddUserToGroup.call group: @group, user: current_user
+puts result.user_group
+ => #<UserGroup id: 1, user_id: 1, group_id: 1>
+puts result.message
+=> You have successfully joined the Example group!
